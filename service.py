@@ -7,10 +7,9 @@ with open('data.json') as f:
     # Load the data from the file
     data = json.load(f)
 
-# Bir route tanımlayalım
+# Define a route
 @app.route("/api")
 def api():
-    # Sözlüğü JSON formatında döndürelim
     return jsonify(data)
 
 if __name__ == "__main__":

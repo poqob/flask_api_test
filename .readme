@@ -1,0 +1,18 @@
+Örnek api uygulaması
+
+açıklama:
+
+service.py dosyası içerisinde flask modulu ile data.json 
+/api yönlendirmesinde yayınlanmaktadır. yayına çalıştırıldığı
+ağ içerisindeki diğer cihazlardan da erişim sağlanmaktadır.
+
+local:
+localhost:5000/api
+
+ortak ağ:
+ip:5000/api
+
+app.py dosyasında ise çalışan servise basit bir get isteği atılmaktadır.
+cevap olarak "data.json" dosyası dönmektedir. Bu cevabı bir modele döküp 
+konsola yazdırma görevi yapılmaktadır.
+
